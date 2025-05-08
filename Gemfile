@@ -12,7 +12,7 @@ group :development, :test do
   gem 'puma', '~> 6.4.0'
   gem 'rspec-rails', '~> 6.0.1'
   gem 'capybara', '~> 3.40'
-  gem "rack", "3.1.8"
+  gem "rack", "3.1.14"
 
   # gem 'custom_fields', path: '../custom_fields' # for Developers
   gem 'custom_fields', github: 'locomotivecms/custom_fields', ref: '87bf1b389d'
